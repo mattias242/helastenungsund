@@ -4,5 +4,9 @@ import { tema02 } from './tema-02-havet';
 import { tema03 } from './tema-03-grona';
 import { tema04 } from './tema-04-unga';
 import { tema05 } from './tema-05-mat';
-// tema06-10 will be added later
-export const proposals: Proposal[] = [...tema01, ...tema02, ...tema03, ...tema04, ...tema05];
+import { tema06 } from './tema-06-foreningar';
+import { tema07 } from './tema-07-natur';
+import { tema08 } from './tema-08-byar';
+import { tema09 } from './tema-09-koppla';
+import { tema10 } from './tema-10-kunskap';
+export const proposals: Proposal[] = [...tema01, ...tema02, ...tema03, ...tema04, ...tema05, ...tema06, ...tema07, ...tema08, ...tema09, ...tema10];

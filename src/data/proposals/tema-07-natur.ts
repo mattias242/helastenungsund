@@ -1,6 +1,6 @@
 import type { Proposal } from '../types';
 
-export const tema07Proposals: Proposal[] = [
+export const tema07: Proposal[] = [
   {
     id: 61,
     themeId: 7,
