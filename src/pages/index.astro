@@ -17,11 +17,9 @@ const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'Maj', 'Jun', 'Jul', 'Aug', 'Sep
 <BaseLayout title="Hela Stenungsund — 100 förslag för hela kommunen">
 
   <!-- 1. Hero Section -->
-  <section class="relative bg-gradient-to-br from-ocean via-ocean to-[#152d4a] text-white overflow-hidden">
-    <div class="absolute inset-0 opacity-10">
-      <div class="absolute top-20 left-10 w-72 h-72 bg-white rounded-full blur-3xl"></div>
-      <div class="absolute bottom-10 right-20 w-96 h-96 bg-sunset rounded-full blur-3xl"></div>
-    </div>
+  <section class="relative text-white overflow-hidden">
+    <img src="/images/hero.png" alt="Panorama over Stenungsund" class="absolute inset-0 w-full h-full object-cover" />
+    <div class="absolute inset-0 bg-gradient-to-br from-ocean/80 via-ocean/70 to-[#152d4a]/80"></div>
     <div class="relative max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-32 text-center">
       <span class="inline-block bg-white/15 backdrop-blur-sm text-white text-sm font-medium px-4 py-2 rounded-full mb-8 border border-white/20">
         100 förslag &middot; 10 teman &middot; 1 kommun
@@ -155,9 +153,8 @@ const monthNames = ['Jan', 'Feb', 'Mar', 'Apr', 'Maj', 'Jun', 'Jul', 'Aug', 'Sep
   <section class="bg-sand">
     <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
       <div class="grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-16 items-center">
-        <!-- Image placeholder -->
-        <div class="bg-gradient-to-br from-ocean/20 to-forest/20 rounded-2xl aspect-[4/3] flex items-center justify-center">
-          <span class="text-6xl opacity-50">🏗️</span>
+        <div class="rounded-2xl aspect-[4/3] overflow-hidden">
+          <img src="/images/hero.png" alt="Stenungsund panorama" class="w-full h-full object-cover" loading="lazy" />
         </div>
         <div>
           <h2 class="font-heading text-3xl md:text-4xl text-charcoal mb-6">Perspektivet är utifrån och in</h2>

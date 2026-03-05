@@ -5,6 +5,7 @@ export interface Theme {
   subtitle: string;
   question: string;
   description: string;
+  image: string;
 }
 
 export interface Proposal {
