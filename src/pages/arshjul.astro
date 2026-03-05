@@ -1,0 +1,112 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { themes } from '../data/themes';
+import { proposals } from '../data/proposals/index';
+
+const monthNames = [
+  'Januari', 'Februari', 'Mars', 'April', 'Maj', 'Juni',
+  'Juli', 'Augusti', 'September', 'Oktober', 'November', 'December',
+];
+const monthShort = ['Jan', 'Feb', 'Mar', 'Apr', 'Maj', 'Jun', 'Jul', 'Aug', 'Sep', 'Okt', 'Nov', 'Dec'];
+
+// Map seasons to month indices (0-based)
+const seasonMonths: Record<string, number[]> = {
+  'Året runt': [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11],
+  'Vår': [2, 3, 4],       // Mar, Apr, Maj
+  'Sommar': [5, 6, 7],    // Jun, Jul, Aug
+  'Höst': [8, 9, 10],     // Sep, Okt, Nov
+  'Vinter': [11, 0, 1],   // Dec, Jan, Feb
+};
+
+// Build proposals per month
+const proposalsByMonth: { proposals: typeof proposals; count: number }[] = monthNames.map((_, monthIdx) => {
+  const matching = proposals.filter(p => {
+    const months = seasonMonths[p.season];
+    return months ? months.includes(monthIdx) : false;
+  });
+  return { proposals: matching, count: matching.length };
+});
+---
+
+<BaseLayout title="Årshjulet — Hela Stenungsund">
+
+  <!-- Header -->
+  <section class="bg-gradient-to-br from-ocean via-ocean to-[#152d4a] text-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20 text-center">
+      <h1 class="font-heading text-4xl md:text-5xl mb-4">Årshjulet</h1>
+      <p class="text-white/70 text-lg">Varje månad har något att erbjuda i Stenungsund</p>
+    </div>
+  </section>
+
+  <!-- Month Navigation -->
+  <section class="bg-white border-b border-border sticky top-16 z-40">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <div class="flex gap-2 overflow-x-auto pb-1 scrollbar-hide">
+        {monthShort.map((name, i) => (
+          <a
+            href={`#month-${i}`}
+            class="shrink-0 bg-sand hover:bg-ocean hover:text-white text-charcoal font-medium text-sm px-4 py-2 rounded-full border border-border hover:border-ocean transition-all"
+          >
+            {name}
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Monthly Sections -->
+  <section class="bg-sand">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+      <div class="space-y-16">
+        {monthNames.map((month, i) => {
+          const data = proposalsByMonth[i];
+          return (
+            <div id={`month-${i}`} class="scroll-mt-32">
+              <div class="flex items-baseline gap-4 mb-6">
+                <h2 class="font-heading text-2xl md:text-3xl text-charcoal">{month}</h2>
+                <span class="text-sm text-muted font-medium">{data.count} förslag</span>
+              </div>
+              {data.count === 0 ? (
+                <p class="text-muted italic">Inga förslag denna månad.</p>
+              ) : (
+                <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-3">
+                  {data.proposals.map(proposal => {
+                    const theme = themes.find(t => t.id === proposal.themeId);
+                    return (
+                      <a
+                        href={`/förslag/${proposal.id}`}
+                        class="group flex items-center gap-3 bg-white rounded-lg px-4 py-3 border border-border hover:border-ocean/30 hover:shadow-sm transition-all"
+                      >
+                        <span class="text-xl shrink-0">{theme?.emoji}</span>
+                        <div class="min-w-0">
+                          <div class="text-sm font-medium text-charcoal group-hover:text-ocean transition-colors truncate">
+                            {proposal.title}
+                          </div>
+                          <div class="text-xs text-muted truncate">{proposal.season}</div>
+                        </div>
+                      </a>
+                    );
+                  })}
+                </div>
+              )}
+            </div>
+          );
+        })}
+      </div>
+    </div>
+  </section>
+
+  <!-- Summary -->
+  <section class="bg-white">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20 text-center">
+      <h2 class="font-heading text-2xl md:text-3xl text-charcoal mb-4">Det finns alltid en anledning att uppleva Stenungsund.</h2>
+      <a href="/utforska" class="inline-flex items-center bg-sunset hover:bg-[#d4662f] text-white font-semibold px-8 py-3.5 rounded-xl transition-colors text-lg shadow-lg shadow-sunset/25 mt-6">
+        Utforska alla förslag
+        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+        </svg>
+      </a>
+    </div>
+  </section>
+
+</BaseLayout>

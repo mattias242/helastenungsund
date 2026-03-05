@@ -1,0 +1,216 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { themes } from '../data/themes';
+import { proposals } from '../data/proposals/index';
+
+// Quick stats
+const totalProposals = proposals.length;
+const quickWinCount = proposals.filter(p => p.timeline === 'Quick win').length;
+const avgSustainability = (
+  proposals.reduce((sum, p) => sum + (p.sustainability.social + p.sustainability.ecological + p.sustainability.economic) / 3, 0) / totalProposals
+).toFixed(1);
+const uniqueLocations = new Set(proposals.map(p => p.location)).size;
+
+// Proposals per theme
+const proposalsPerTheme = themes.map(theme => ({
+  ...theme,
+  count: proposals.filter(p => p.themeId === theme.id).length,
+}));
+const maxPerTheme = Math.max(...proposalsPerTheme.map(t => t.count));
+
+// Cost distribution
+const costCounts = {
+  Liten: proposals.filter(p => p.cost === 'Liten').length,
+  Medel: proposals.filter(p => p.cost === 'Medel').length,
+  Stor: proposals.filter(p => p.cost === 'Stor').length,
+};
+const costPct = {
+  Liten: ((costCounts.Liten / totalProposals) * 100).toFixed(0),
+  Medel: ((costCounts.Medel / totalProposals) * 100).toFixed(0),
+  Stor: ((costCounts.Stor / totalProposals) * 100).toFixed(0),
+};
+
+// Timeline distribution
+const timelineCounts = {
+  'Quick win': proposals.filter(p => p.timeline === 'Quick win').length,
+  Medel: proposals.filter(p => p.timeline === 'Medel').length,
+  'Långsiktig': proposals.filter(p => p.timeline === 'Långsiktig').length,
+};
+const timelinePct = {
+  'Quick win': ((timelineCounts['Quick win'] / totalProposals) * 100).toFixed(0),
+  Medel: ((timelineCounts.Medel / totalProposals) * 100).toFixed(0),
+  'Långsiktig': ((timelineCounts['Långsiktig'] / totalProposals) * 100).toFixed(0),
+};
+
+// Sustainability averages
+const avgSocial = (proposals.reduce((s, p) => s + p.sustainability.social, 0) / totalProposals).toFixed(1);
+const avgEcological = (proposals.reduce((s, p) => s + p.sustainability.ecological, 0) / totalProposals).toFixed(1);
+const avgEconomic = (proposals.reduce((s, p) => s + p.sustainability.economic, 0) / totalProposals).toFixed(1);
+
+// Location counts
+const locationMap = new Map<string, number>();
+proposals.forEach(p => {
+  locationMap.set(p.location, (locationMap.get(p.location) || 0) + 1);
+});
+const locationCounts = [...locationMap.entries()].sort((a, b) => b[1] - a[1]);
+---
+
+<BaseLayout title="Dashboard — Hela Stenungsund">
+
+  <!-- Header -->
+  <section class="bg-gradient-to-br from-ocean via-ocean to-[#152d4a] text-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20 text-center">
+      <h1 class="font-heading text-4xl md:text-5xl mb-4">Dashboard</h1>
+      <p class="text-white/70 text-lg">Översikt över alla 100 förslag</p>
+    </div>
+  </section>
+
+  <!-- Quick Stats -->
+  <section class="bg-white border-b border-border">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      <div class="grid grid-cols-2 md:grid-cols-4 gap-6 md:gap-8">
+        <div class="bg-sand rounded-xl p-6 text-center border border-border">
+          <div class="text-3xl md:text-4xl font-bold text-ocean mb-1">{totalProposals}</div>
+          <div class="text-sm text-muted font-medium">Totalt förslag</div>
+        </div>
+        <div class="bg-sand rounded-xl p-6 text-center border border-border">
+          <div class="text-3xl md:text-4xl font-bold text-ocean mb-1">{quickWinCount}</div>
+          <div class="text-sm text-muted font-medium">Quick wins</div>
+        </div>
+        <div class="bg-sand rounded-xl p-6 text-center border border-border">
+          <div class="text-3xl md:text-4xl font-bold text-ocean mb-1">{avgSustainability}</div>
+          <div class="text-sm text-muted font-medium">Genomsnittlig hållbarhet</div>
+        </div>
+        <div class="bg-sand rounded-xl p-6 text-center border border-border">
+          <div class="text-3xl md:text-4xl font-bold text-ocean mb-1">{uniqueLocations}</div>
+          <div class="text-sm text-muted font-medium">Unika platser</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Proposals per Theme -->
+  <section class="bg-sand">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+      <h2 class="font-heading text-2xl md:text-3xl text-charcoal mb-8">Förslag per tema</h2>
+      <div class="space-y-3">
+        {proposalsPerTheme.map(theme => (
+          <a href={`/tema/${theme.id}`} class="flex items-center gap-3 group">
+            <div class="w-44 sm:w-56 shrink-0 text-sm font-medium text-charcoal group-hover:text-ocean transition-colors truncate">
+              {theme.emoji} {theme.name}
+            </div>
+            <div class="flex-1 bg-white rounded-full h-8 border border-border overflow-hidden">
+              <div
+                class="h-full bg-ocean/80 rounded-full flex items-center justify-end pr-3 transition-all"
+                style={`width: ${(theme.count / maxPerTheme) * 100}%`}
+              >
+                <span class="text-xs font-bold text-white">{theme.count}</span>
+              </div>
+            </div>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Cost Distribution -->
+  <section class="bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+      <h2 class="font-heading text-2xl md:text-3xl text-charcoal mb-8">Kostnadsfördelning</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+        <div class="bg-emerald-50 border border-emerald-200 rounded-xl p-6 text-center">
+          <div class="text-3xl font-bold text-emerald-700 mb-1">{costCounts.Liten}</div>
+          <div class="text-sm font-medium text-emerald-600 mb-2">Liten</div>
+          <div class="text-xs text-emerald-500">{costPct.Liten}% av alla förslag</div>
+        </div>
+        <div class="bg-amber-50 border border-amber-200 rounded-xl p-6 text-center">
+          <div class="text-3xl font-bold text-amber-700 mb-1">{costCounts.Medel}</div>
+          <div class="text-sm font-medium text-amber-600 mb-2">Medel</div>
+          <div class="text-xs text-amber-500">{costPct.Medel}% av alla förslag</div>
+        </div>
+        <div class="bg-red-50 border border-red-200 rounded-xl p-6 text-center">
+          <div class="text-3xl font-bold text-red-700 mb-1">{costCounts.Stor}</div>
+          <div class="text-sm font-medium text-red-600 mb-2">Stor</div>
+          <div class="text-xs text-red-500">{costPct.Stor}% av alla förslag</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Timeline Distribution -->
+  <section class="bg-sand">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+      <h2 class="font-heading text-2xl md:text-3xl text-charcoal mb-8">Tidshorisonter</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-3 gap-6">
+        <div class="bg-sky-50 border border-sky-200 rounded-xl p-6 text-center">
+          <div class="text-3xl font-bold text-sky-700 mb-1">{timelineCounts['Quick win']}</div>
+          <div class="text-sm font-medium text-sky-600 mb-2">Quick win</div>
+          <div class="text-xs text-sky-500">{timelinePct['Quick win']}% av alla förslag</div>
+        </div>
+        <div class="bg-violet-50 border border-violet-200 rounded-xl p-6 text-center">
+          <div class="text-3xl font-bold text-violet-700 mb-1">{timelineCounts.Medel}</div>
+          <div class="text-sm font-medium text-violet-600 mb-2">Medel</div>
+          <div class="text-xs text-violet-500">{timelinePct.Medel}% av alla förslag</div>
+        </div>
+        <div class="bg-indigo-50 border border-indigo-200 rounded-xl p-6 text-center">
+          <div class="text-3xl font-bold text-indigo-700 mb-1">{timelineCounts['Långsiktig']}</div>
+          <div class="text-sm font-medium text-indigo-600 mb-2">Långsiktig</div>
+          <div class="text-xs text-indigo-500">{timelinePct['Långsiktig']}% av alla förslag</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sustainability Overview -->
+  <section class="bg-white">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+      <h2 class="font-heading text-2xl md:text-3xl text-charcoal mb-8">Hållbarhetsöversikt</h2>
+      <p class="text-muted mb-6">Genomsnittliga hållbarhetspoäng för alla 100 förslag (skala 1-5).</p>
+      <div class="space-y-6 max-w-xl">
+        <div>
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-sm font-medium text-charcoal">Social hållbarhet</span>
+            <span class="text-sm font-bold text-ocean">{avgSocial} / 5</span>
+          </div>
+          <div class="w-full bg-sand rounded-full h-4 border border-border">
+            <div class="bg-ocean h-full rounded-full" style={`width: ${(Number(avgSocial) / 5) * 100}%`}></div>
+          </div>
+        </div>
+        <div>
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-sm font-medium text-charcoal">Ekologisk hållbarhet</span>
+            <span class="text-sm font-bold text-forest">{avgEcological} / 5</span>
+          </div>
+          <div class="w-full bg-sand rounded-full h-4 border border-border">
+            <div class="bg-forest h-full rounded-full" style={`width: ${(Number(avgEcological) / 5) * 100}%`}></div>
+          </div>
+        </div>
+        <div>
+          <div class="flex items-center justify-between mb-2">
+            <span class="text-sm font-medium text-charcoal">Ekonomisk hållbarhet</span>
+            <span class="text-sm font-bold text-sunset">{avgEconomic} / 5</span>
+          </div>
+          <div class="w-full bg-sand rounded-full h-4 border border-border">
+            <div class="bg-sunset h-full rounded-full" style={`width: ${(Number(avgEconomic) / 5) * 100}%`}></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Locations Tag Cloud -->
+  <section class="bg-sand">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+      <h2 class="font-heading text-2xl md:text-3xl text-charcoal mb-8">Platser</h2>
+      <div class="flex flex-wrap gap-3">
+        {locationCounts.map(([location, count]) => (
+          <span class="inline-flex items-center bg-white border border-border rounded-full px-4 py-2 text-sm">
+            <span class="font-medium text-charcoal">{location}</span>
+            <span class="ml-2 bg-ocean text-white text-xs font-bold w-6 h-6 rounded-full flex items-center justify-center">{count}</span>
+          </span>
+        ))}
+      </div>
+    </div>
+  </section>
+
+</BaseLayout>

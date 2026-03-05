@@ -1,0 +1,202 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { themes } from '../data/themes';
+---
+
+<BaseLayout title="Om projektet — Hela Stenungsund">
+
+  <!-- Disclaimer Banner -->
+  <section class="bg-amber-50 border-b border-amber-200">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-4">
+      <div class="flex items-start gap-3">
+        <svg class="w-5 h-5 text-amber-600 shrink-0 mt-0.5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z" />
+        </svg>
+        <p class="text-sm text-amber-800 leading-relaxed">
+          <strong>OBS: Detta är ett koncept och experiment.</strong> Den här sajten är AI-genererad. Syftet är att presentera ett format — ett sätt att tänka kring kommunens framtid — och få bollen i rullning. Texter är utkast som behöver bearbetas. Inget är bestämt, allt är öppet för diskussion.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Hero -->
+  <section class="bg-gradient-to-br from-ocean via-ocean to-[#152d4a] text-white">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-20 md:py-28 text-center">
+      <h1 class="font-heading text-4xl md:text-5xl mb-6">Om projektet</h1>
+      <p class="text-lg md:text-xl text-white/80 max-w-2xl mx-auto leading-relaxed">
+        100 konkreta förslag för att vitalisera hela Stenungsunds kommun. Positivt, framåtlutat, genomförbart.
+      </p>
+    </div>
+  </section>
+
+  <!-- Varför 100 förslag? -->
+  <section class="bg-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
+      <h2 class="font-heading text-3xl md:text-4xl text-charcoal mb-8">Varför 100 förslag?</h2>
+      <div class="space-y-6 text-charcoal/80 leading-relaxed text-lg">
+        <p>
+          Stenungsunds kommun har fantastisk potential. Med havet, industrin, naturen och ett starkt föreningsliv finns alla ingredienser för en levande kommun. Men potentialen behöver bli konkret i genomförbara idéer.
+        </p>
+        <p>
+          Det här projektet samlar 100 konkreta förslag, organiserade i 10 teman som utgår från vad människor vill uppleva — inte vad organisationer ansvarar för.
+        </p>
+        <p class="font-semibold text-charcoal">
+          Inga klagomål. Inga pekpinnar. Bara idéer som kan genomföras.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Principer -->
+  <section class="bg-sand">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
+      <h2 class="font-heading text-3xl md:text-4xl text-charcoal mb-10 text-center">Principer</h2>
+      <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div class="bg-white rounded-xl p-6 border border-border">
+          <div class="w-10 h-10 bg-ocean/10 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-5 h-5 text-ocean" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </div>
+          <h3 class="font-heading text-xl text-charcoal mb-2">Konkret</h3>
+          <p class="text-sm text-muted leading-relaxed">Varje förslag har en tydlig beskrivning, kostnad och ansvariga aktörer.</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 border border-border">
+          <div class="w-10 h-10 bg-forest/10 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-5 h-5 text-forest" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+            </svg>
+          </div>
+          <h3 class="font-heading text-xl text-charcoal mb-2">Positivt</h3>
+          <p class="text-sm text-muted leading-relaxed">Vi fokuserar på möjligheter, inte problem. Framåtlutat och konstruktivt.</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 border border-border">
+          <div class="w-10 h-10 bg-sunset/10 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-5 h-5 text-sunset" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M17 20h5v-2a3 3 0 00-5.356-1.857M17 20H7m10 0v-2c0-.656-.126-1.283-.356-1.857M7 20H2v-2a3 3 0 015.356-1.857M7 20v-2c0-.656.126-1.283.356-1.857m0 0a5.002 5.002 0 019.288 0M15 7a3 3 0 11-6 0 3 3 0 016 0zm6 3a2 2 0 11-4 0 2 2 0 014 0zM7 10a2 2 0 11-4 0 2 2 0 014 0z" />
+            </svg>
+          </div>
+          <h3 class="font-heading text-xl text-charcoal mb-2">Inkluderande</h3>
+          <p class="text-sm text-muted leading-relaxed">Förslagen riktar sig till alla — barn, unga, vuxna och seniorer.</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 border border-border">
+          <div class="w-10 h-10 bg-ocean/10 rounded-lg flex items-center justify-center mb-4">
+            <svg class="w-5 h-5 text-ocean" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 10V3L4 14h7v7l9-11h-7z" />
+            </svg>
+          </div>
+          <h3 class="font-heading text-xl text-charcoal mb-2">Genomförbart</h3>
+          <p class="text-sm text-muted leading-relaxed">Från quick wins som kan starta inom 3 månader till långsiktiga satsningar.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Perspektivet utifrån och in -->
+  <section class="bg-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
+      <h2 class="font-heading text-3xl md:text-4xl text-charcoal mb-8">Perspektivet: utifrån och in</h2>
+      <div class="space-y-6 text-charcoal/80 leading-relaxed text-lg">
+        <p>
+          Istället för att utgå från organisationsstrukturer ställer vi frågan: Vad vill människor uppleva i Stenungsund?
+        </p>
+        <p>
+          Varje tema börjar med en fråga som en invånare kan ställa sig. &ldquo;Varför ska jag gå till centrum?&rdquo; — det är utgångspunkten.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Så fungerar det -->
+  <section class="bg-sand">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
+      <h2 class="font-heading text-3xl md:text-4xl text-charcoal mb-10 text-center">Så fungerar det</h2>
+      <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div class="bg-white rounded-xl p-6 border border-border text-center">
+          <div class="w-12 h-12 bg-ocean text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">1</div>
+          <h3 class="font-heading text-xl text-charcoal mb-3">10 teman</h3>
+          <p class="text-sm text-muted leading-relaxed">Varje tema utgår från en kärnfråga ur medborgarens perspektiv.</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 border border-border text-center">
+          <div class="w-12 h-12 bg-ocean text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">2</div>
+          <h3 class="font-heading text-xl text-charcoal mb-3">Varje förslag beskriver</h3>
+          <p class="text-sm text-muted leading-relaxed">Vad, varför, vem, kostnad, tidsplan och hållbarhet.</p>
+        </div>
+        <div class="bg-white rounded-xl p-6 border border-border text-center">
+          <div class="w-12 h-12 bg-ocean text-white rounded-full flex items-center justify-center mx-auto mb-4 text-xl font-bold">3</div>
+          <h3 class="font-heading text-xl text-charcoal mb-3">Filtrera och utforska</h3>
+          <p class="text-sm text-muted leading-relaxed">Sök på kostnad, tidshorisont, plats och målgrupp.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- De 10 temana -->
+  <section class="bg-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
+      <h2 class="font-heading text-3xl md:text-4xl text-charcoal mb-10 text-center">De 10 temana</h2>
+      <div class="space-y-3">
+        {themes.map(theme => (
+          <a
+            href={`/tema/${theme.id}`}
+            class="group flex items-center gap-4 bg-sand rounded-xl p-5 border border-border hover:border-ocean/30 hover:shadow-sm transition-all"
+          >
+            <span class="text-3xl shrink-0">{theme.emoji}</span>
+            <div class="flex-1 min-w-0">
+              <div class="flex items-baseline gap-2 mb-1">
+                <h3 class="font-heading text-lg text-charcoal group-hover:text-ocean transition-colors">{theme.name}</h3>
+                <span class="text-xs text-muted hidden sm:inline">{theme.subtitle}</span>
+              </div>
+              <p class="text-sm text-charcoal/70 italic truncate">&ldquo;{theme.question}&rdquo;</p>
+            </div>
+            <svg class="w-5 h-5 text-muted group-hover:text-ocean transition-colors shrink-0" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M9 5l7 7-7 7" />
+            </svg>
+          </a>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <!-- Oberoende initiativ -->
+  <section class="bg-sand">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20">
+      <h2 class="font-heading text-3xl md:text-4xl text-charcoal mb-8">Oberoende initiativ</h2>
+      <div class="space-y-6 text-charcoal/80 leading-relaxed text-lg">
+        <p>
+          Hela Stenungsund är ett oberoende initiativ. Plattformen är opolitisk och alla partier, föreningar, företag och medborgare är välkomna att hämta idéer och bygga vidare på dem.
+        </p>
+        <p>
+          Vi tror att de bästa lösningarna uppstår när många bidrar.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <!-- CTA -->
+  <section class="bg-gradient-to-br from-ocean via-ocean to-[#152d4a] text-white">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20 text-center">
+      <h2 class="font-heading text-3xl md:text-4xl mb-6">Redo att utforska?</h2>
+      <a href="/utforska" class="inline-flex items-center bg-sunset hover:bg-[#d4662f] text-white font-semibold px-8 py-3.5 rounded-xl transition-colors text-lg shadow-lg shadow-sunset/25">
+        Utforska alla 100 förslag
+        <svg class="w-5 h-5 ml-2" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+        </svg>
+      </a>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="bg-white">
+    <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 py-16 md:py-20 text-center">
+      <h2 class="font-heading text-2xl md:text-3xl text-charcoal mb-4">Kontakt</h2>
+      <p class="text-muted leading-relaxed text-lg mb-6">
+        Har du frågor, idéer eller vill engagera dig?
+      </p>
+      <a href="mailto:kontakt@helastenungsund.se" class="text-ocean font-semibold text-lg hover:underline">
+        kontakt@helastenungsund.se
+      </a>
+    </div>
+  </section>
+
+</BaseLayout>
