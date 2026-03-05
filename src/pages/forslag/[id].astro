@@ -2,6 +2,7 @@
 import BaseLayout from '../../layouts/BaseLayout.astro';
 import { themes } from '../../data/themes';
 import { proposals } from '../../data/proposals';
+import { getProposalImage } from '../../data/proposal-images';
 
 export function getStaticPaths() {
   return proposals.map((p) => ({
@@ -12,6 +13,7 @@ export function getStaticPaths() {
 
 const { proposal } = Astro.props;
 const theme = themes.find((t) => t.id === proposal.themeId)!;
+const proposalImage = getProposalImage(proposal.id, proposal.themeId);
 const themeProposals = proposals.filter((p) => p.themeId === proposal.themeId);
 const currentIndex = themeProposals.findIndex((p) => p.id === proposal.id);
 const prevProposal = themeProposals[currentIndex - 1] ?? null;
@@ -62,10 +64,16 @@ function sustainabilityColor(score: number) {
     </div>
   </div>
 
+  <!-- Hero Image -->
+  <section class="relative h-64 md:h-80 overflow-hidden">
+    <img src={proposalImage} alt={proposal.title} class="absolute inset-0 w-full h-full object-cover" />
+    <div class="absolute inset-0 bg-gradient-to-t from-white via-white/30 to-transparent"></div>
+  </section>
+
   <!-- Story Block -->
   <section class="bg-white">
-    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
-      <blockquote class="border-l-4 border-sunset pl-6 py-2 italic text-charcoal/80 text-lg leading-relaxed max-w-3xl">
+    <div class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 py-10 -mt-16 relative">
+      <blockquote class="border-l-4 border-sunset pl-6 py-2 italic text-charcoal/80 text-lg leading-relaxed max-w-3xl bg-white/90 backdrop-blur-sm rounded-r-lg pr-4">
         {proposal.story}
       </blockquote>
     </div>
