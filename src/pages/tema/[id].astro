@@ -113,7 +113,7 @@ function timelineColor(timeline: string) {
 
   <!-- Navigation -->
   <section class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
-    <div class="flex justify-between items-center border-t border-border pt-8">
+    <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 border-t border-border pt-8">
       {prevTheme ? (
         <a href={`/tema/${prevTheme.id}`} class="inline-flex items-center text-ocean hover:text-ocean/80 transition-colors text-sm font-medium">
           &larr; {prevTheme.emoji} {prevTheme.name}

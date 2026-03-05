@@ -96,7 +96,7 @@ const locationCounts = [...locationMap.entries()].sort((a, b) => b[1] - a[1]);
       <div class="space-y-3">
         {proposalsPerTheme.map(theme => (
           <a href={`/tema/${theme.id}`} class="flex items-center gap-3 group">
-            <div class="w-44 sm:w-56 shrink-0 text-sm font-medium text-charcoal group-hover:text-ocean transition-colors truncate">
+            <div class="w-28 sm:w-56 shrink-0 text-xs sm:text-sm font-medium text-charcoal group-hover:text-ocean transition-colors truncate">
               {theme.emoji} {theme.name}
             </div>
             <div class="flex-1 bg-white rounded-full h-8 border border-border overflow-hidden">

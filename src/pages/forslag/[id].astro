@@ -265,9 +265,9 @@ function sustainabilityColor(score: number) {
 
   <!-- Navigation -->
   <section class="max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
-    <div class="flex justify-between items-center border-t border-border pt-8">
+    <div class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 border-t border-border pt-8">
       {prevProposal ? (
-        <a href={`/forslag/${prevProposal.id}`} class="inline-flex items-center text-ocean hover:text-ocean/80 transition-colors text-sm font-medium">
+        <a href={`/forslag/${prevProposal.id}`} class="inline-flex items-center text-ocean hover:text-ocean/80 transition-colors text-sm font-medium max-w-full truncate">
           &larr; #{prevProposal.id} {prevProposal.title}
         </a>
       ) : (
@@ -276,7 +276,7 @@ function sustainabilityColor(score: number) {
         </a>
       )}
       {nextProposal ? (
-        <a href={`/forslag/${nextProposal.id}`} class="inline-flex items-center text-ocean hover:text-ocean/80 transition-colors text-sm font-medium">
+        <a href={`/forslag/${nextProposal.id}`} class="inline-flex items-center text-ocean hover:text-ocean/80 transition-colors text-sm font-medium max-w-full truncate sm:text-right">
           #{nextProposal.id} {nextProposal.title} &rarr;
         </a>
       ) : (
