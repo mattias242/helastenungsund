@@ -25,3 +25,11 @@ pnpm-debug.log*
 
 # generated images
 generated_imgs/
+
+# Gas Town (added by gt)
+.runtime/
+.claude/
+.logs/
+__pycache__/
+state.json
+.beads/
