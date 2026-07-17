@@ -1,0 +1,38 @@
+STENUNGSUND 2035 — AMINA IDRIS (Avsnitt 5 av 7: Jörlanda)
+IT-utvecklare och hemvändare, 29 år. Perspektiv: IT-klustret, bostäder för unga, kustliv, föreningsliv, att höra hemma.
+Talmanus med ElevenLabs v3 audio tags. Musikbryt markerade ==== MUSIK X ==== — tas bort före generering.
+
+=====================================================
+
+DEL 1
+
+[bright, clear] Mitt kontor har två adresser. Den ena är en skrivbordsplats i IT-klustrets hus i Stenungsund, femton minuter bort. Den andra är ett köksbord i Jörlanda med utsikt över betande får, ett kyrktorn och en strimma hav. [pause] Idag är det köksbordet. Fåren har stått i samma hörn av hagen sedan frukost. Fokus. Det respekterar jag.
+
+[warmly] Jag heter Amina Idris. Jag är tjugonio år, jag är systemutvecklare, och jag bor i Jörlanda — kommunens sydligaste hörn, där jordbrukslandskapet rullar ända ner till Hakefjorden och himlen alltid är lite större än man minns den. [pause] Jag växte upp här. Mina föräldrar kom till Sverige från Somalia innan jag föddes, och när jag var sex flyttade vi från Göteborg till ett radhus i Jörlanda. [soft] Jag minns att pappa stod i trädgården första kvällen och bara lyssnade. Sedan sa han: Amina, här är det så tyst att man hör sina egna tankar. Vi får se om det är bra eller dåligt.
+
+[amused] Det blev bra. Fotbollsklubben värvade mig innan flyttlasset ens var urpackat — jag var sex år och kunde inte träffa en boll, men laget behövde spelare och jag behövde ett lag, och så var den saken avgjord. [pause] Så fungerar små orter när de fungerar: man blir behövd före man blir bedömd.
+
+[reflective] Sedan gjorde jag det unga från små orter gör. Jag flyttade. Plugg i Linköping, jobb i Stockholm, sex år i en etta med utsikt över en annan etta. [pause] Det här är berättelsen om varför jag kom tillbaka — och varför det ens var möjligt.
+
+==== MUSIK 1 — "Hemvägen" ====
+
+DEL 2
+
+[matter-of-fact] Två saker gjorde det möjligt, och jag vill vara noga här, för folk tror att hemlängtan räcker. Det gör den inte. Man behöver ett jobb och ett hem. [pause] Jobbet först: när jag satt i Stockholm började rekryterare skriva om Stenungsund, av alla ställen. Kommunen hade byggt upp ett IT-kluster vägg i vägg med kemiindustrin — och det låter kanske skruvat tills man fattar logiken. [engaged] Industrin här digitaliserades snabbare än nästan någon annanstans: processoptimering, energistyrning, cirkulära materialflöden — alltihop är mjukvara numera. Bolagen som byggde de systemen upptäckte att ingenjörer gärna bor där havet börjar. Science parken kopplade ihop dem med universitetet och gymnasiet. Och plötsligt fanns det riktiga, svåra, välbetalda utvecklarjobb tjugo minuter från min barndoms fotbollsplan.
+
+[building] Hemmet sedan: och nu kommer det jag är mest imponerad av. När Jörlanda växte byggde kommunen inte bara villor för etablerade familjer. De byggde för alla behov — som det faktiskt stod i visionen. Små hyresrätter för unga. Ägarlägenheter man kan ta sig in i utan föräldrabank. Seniorboenden som frigör husen. [pause] Jag fick en tvåa med balkong mot fälten, till en hyra som hade varit ett skämt i Stockholm. Fast åt andra hållet. [amused] Ett snällt skämt.
+
+[warm] Och den tredje saken, den ingen annons nämner: man kommer hem till ett sammanhang. Fotbollsklubben — samma klubb — frågade om jag ville träna tjejlaget, typ andra veckan. Numera tränar jag elvaåringar på onsdagar. Hälften av dem har rötter i andra länder, precis som jag, och ingen av dem tycker att det är något att kommentera. [pause] Det står i kommunens vision att alla ska vara välkomna, att man omfamnar oliktänkande och välkomnar initiativ. [gently] Jag kan bara säga: jag har testat påståendet med hela mitt liv. Det håller.
+
+==== MUSIK 2 — "Fiber och saltvatten" ====
+
+DEL 3
+
+[calm] Efter jobbet idag ska jag gå ner till havet. Det tar tio minuter, förbi kyrkan och gårdarna, ner till klipporna där jag lärde mig simma. På vägen möter jag antagligen någon jag känner, för det gör man här, och det tillför livskvalitet på ett sätt som är svårt att förklara för den som bara bott i städer. [soft laugh] I Stockholm mötte jag tusen människor om dagen och kände ingen. Här möter jag tre och känner alla.
+
+[reflective] Pappa hade rätt om tystnaden, förresten. Man hör sina egna tankar här. [pause] Och mina tankar säger så här: det pratas mycket om att hela Sverige ska leva, och oftast är det bara prat. Men jag är ett bevis på att det går att bygga en plats dit unga faktiskt kan återvända — med jobb i framkant, ett hem man har råd med och ett föreningsliv som fångar en innan ensamheten gör det. [with weight] Det krävdes ingen magi. Det krävdes en kommun som bestämde sig för trettiofem tusen invånare med människan i centrum, och sedan höll fast vid det i tjugo år.
+
+[warmly] Mina föräldrar bor kvar i radhuset. På söndag lagar mamma anjero och pannkaka till elvaåringarna i laget efter matchen — det har blivit tradition, och den kombinationen säger nog allt om vart världen är på väg när den är på väg åt rätt håll. [pause] Tack för att ni lyssnade. Jag heter Amina Idris — och nu loggar jag ut för idag. [soft] Havet väntar, och det ligger tio minuter härifrån. Jag har räknat.
+
+=====================================================
+SLUT — generatorinstruktion: taggar i hakparentes är ElevenLabs v3 audio tags och ska inte läsas upp.

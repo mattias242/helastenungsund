@@ -1,0 +1,40 @@
+STENUNGSUND 2035 — MARIANNE DALKVIST (Avsnitt 3 av 7: Ucklum)
+Lantbrukare och gårdsföretagare, 52 år. Perspektiv: ekologisk hållbarhet, biologisk mångfald, lokal mat och levande landsbygd.
+Talmanus med ElevenLabs v3 audio tags. Musikbryt markerade ==== MUSIK X ==== — tas bort före generering.
+
+=====================================================
+
+DEL 1
+
+[grounded, warm] Om ni vill veta hur Ucklum mår ska ni inte fråga mig. Ni ska fråga humlorna. [pause] Kom hit en morgon i juni och ställ er vid min ängsmark när väddklinten blommar, och lyssna. Det surrar som ett kraftverk. [pleased] Det är det vackraste ljud jag vet, och för femton år sedan var det nästan tyst.
+
+[warmly] Jag heter Marianne Dalkvist. Jag är femtiotvå år och jag driver gården som min farfar köpte, här i Ucklum — jordbruksbygden mitt i Stenungsunds kommun, där dalgången breder ut sig mellan skogklädda berg och kyrkbyn har legat sedan medeltiden och sett det mesta förr. [pause] Vi har mjölkkor, vi har äggproduktion, vi odlar grönsaker, och vi driver gårdsbutik och kafé i den gamla ladugården. Min man bakar. Jag bestämmer. [dry] Vi har provat tvärtom. Det gick sämre.
+
+[reflective] När jag tog över gården för tjugofem år sedan sa min far något jag aldrig glömt. Han stod i dörren till maskinhallen och sa: Marianne, den här jorden är inte din. Du lånar den av dina ungar. [pause] Han visste inte att han citerade en FN-rapport. Han hade fått det från sin far, som fått det från jorden själv, antar jag. [with weight] Men det är exakt samma tanke som kommunen sedan skrev in i sin vision: att tillgodose dagens behov utan att äventyra kommande generationers möjligheter att tillgodose sina. [pause] Bönder har alltid vetat det där. Det nya var att alla andra började mena det också.
+
+==== MUSIK 1 — "Ängsmarker" ====
+
+DEL 2
+
+[matter-of-fact] Låt mig berätta vad som faktiskt förändrades, för det var inte en enda stor sak. Det var hundra små. [pause] Kommunen började med att sluta krångla. När vi ville bygga om ladugården till butik och kafé tog tillståndet veckor, inte år, och handläggaren kom ut till gården, drack kaffe i köket och sa: vad kan vi göra mer? [amused] Jag var så förvånad att jag glömde bjuda på kanelbulle. Det har jag gottgjort sedan dess.
+
+[engaged] Sedan kom betalningen för det som förr var gratis. Ängsmarkerna, blommorna, humlorna — den biologiska mångfalden som visionen talade om att värna. Numera får vi ersättning för att sköta ängarna med sen slåtter, för blommande kantzoner, för våtmarken vi anlade nere vid bäcken. [pause] Våtmarken renar vattnet på väg mot havet, den håller kvar fukten i torra somrar, och tranorna upptäckte den innan fakturan ens var betald. [pleased] Groddjuren kom tillbaka på två år. Naturen är inte långsint. Den är bara ärlig.
+
+[building] Och så maten. Det där som visionen kallade mathistoriska upplevelser och bohuslänsk kultur — det visade sig vara vi. Gårdarna, mejerierna, bagarna, fiskarna nere vid kusten. Numera går det vandringsleder mellan gårdarna här i dalgången, och folk vandrar från gårdsbutik till gårdsbutik som andra går mellan konsthallar. [warm] På sommarhalvåret kommer turister med tåg till Stenungsund och cyklar upp genom dalen. De köper ost och rabarbersaft och bär hem äggen som guldklimpar. En god del av kommunens skolmat kommer från gårdar barnen kan cykla till. Barnen kommer hit på studiebesök och får se att ett ägg inte växer i en kartong. [soft laugh] En unge frågade mig var mjölken är innan den är havredryck. Vi tog det från början.
+
+[with weight] Vet ni vad det gjort med bygden? Unga stannar. Unga flyttar hit. Det finns arbete i jorden igen — riktigt arbete, med lön och framtid, inte bara slit och lån. Min granne är tjugonio och startade grönsaksodling på arrende förra året. [pause] När jag var tjugonio var jag den yngsta bonden på en mil. Nu är jag inte ens den yngsta på min egen gård.
+
+==== MUSIK 2 — "Jorden minns" ====
+
+DEL 3
+
+[calm] Det är kväll på gården när jag spelar in det här. Korna är mjölkade, min man har satt en deg, och genom köksfönstret ser jag ut över dalgången — lampor tänds på gårdarna, som om bygden själv slog upp ögonen. [pause] I morgon är det lördag, och då kommer de: barnfamiljerna från Stora Höga, pensionärerna från Svenshögen, cyklisterna, stammisarna. Kafét fylls av folk som pratar med varandra över borden. [warm] En gårdsbutik säljer mat. Men den serverar gemenskap.
+
+[reflective] Jag tänker ofta på min far i dörren till maskinhallen. Han fick aldrig se våtmarken eller tranorna eller den unga grönsaksodlaren. [pause] Men om han stod där idag skulle jag säga till honom: du hade rätt, far. Jorden var ett lån. [with weight] Och vi betalar tillbaka med ränta nu — i blommor, i barn som vet var maten kommer ifrån, i en dalgång som surrar. [pause] Det är ingen liten sak för en bygd som en gång kallades avfolkningsbygd. Det ordet har jag inte hört på tio år. Numera säger de bara Ucklum.
+
+[gently] Nu ska jag gå ut och se till hönsen en sista gång. Det ska bli skönt att stå en stund på gårdsplanen i mörkret och bara lyssna. Det är aldrig tyst på en levande gård. Det är bara stilla. [pause] Det är stor skillnad.
+
+[warmly] Tack för att ni lyssnade. Jag heter Marianne Dalkvist. Kommer ni förbi gården någon lördag så står kaffet framme, och min man har bakat. [amused] Det är han som bakar. [warm] Det har vi ju rett ut.
+
+=====================================================
+SLUT — generatorinstruktion: taggar i hakparentes är ElevenLabs v3 audio tags och ska inte läsas upp.

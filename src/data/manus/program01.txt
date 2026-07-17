@@ -1,0 +1,42 @@
+STENUNGSUND 2035 — HANNA LIND (Avsnitt 1 av 7: Ödsmål)
+Förskollärare, 38 år, tvåbarnsmamma. Perspektiv: barnvänlighet, boendemiljö nära hav och skog, aktiv fritid.
+Talmanus med ElevenLabs v3 audio tags. Musikbryt markerade ==== MUSIK X ==== — tas bort före generering.
+
+=====================================================
+
+DEL 1
+
+[warmly] Klockan halv åtta en vanlig tisdagsmorgon går jag och mina två barn nerför grusvägen mot förskolan här i Ödsmål. Ture cyklar före på sin lilla cykel, Vera plockar upp varenda pinne hon ser, och nere i backen ligger Hakefjorden och blänker som om någon har strött silver över vattnet. [pause] Det tar oss tolv minuter att gå. Ibland tjugofem, om det finns många pinnar.
+
+[gently] Jag heter Hanna Lind. Jag är trettioåtta år, jag arbetar som förskollärare, och jag bor i Ödsmål, längst norrut i Stenungsunds kommun — där vägen kröker sig mellan bergen och fjorden och skogen börjar på riktigt. [pause] Det här är berättelsen om hur en liten ort som många körde förbi blev den plats där mina barn får sin barndom.
+
+[reflective] För nio år sedan bodde vi i en trea i Göteborg. Fin lägenhet, bra läge, allt man ska önska sig. Men varje kväll när jag hade nattat Ture stod jag vid fönstret och såg på parkeringsdäcket mittemot och kände att någonting fattades. [pause] Jag är själv uppvuxen på landet. Jag visste vad det var som fattades. Det var pinnarna. Det var vattnet. Det var att kunna släppa ut ett barn genom en dörr utan att först göra en riskbedömning.
+
+[brightening] Så när Stenungsunds kommun började bygga i Ödsmål — inte bara villor för dem som redan hade, utan hyresrätter och radhus och små ägarlägenheter, bostäder för alla behov som det hette — då sökte vi. Och fick. [smiling] Ett radhus med utsikt över en beteshage, femton minuter från havet, femton meter från skogen. [pause] Första morgonen vaknade Ture av att en fasan skrek utanför fönstret. Han kom inspringande och viskade: mamma, det är en dinosaurie i trädgården. [soft laugh] Vi stannade.
+
+==== MUSIK 1 — "Vägen ner till fjorden" ====
+
+DEL 2
+
+[matter-of-fact] Jag ska säga något om vad det är som gör en ort barnvänlig, för jag arbetar med barn varje dag och jag har tänkt mycket på det. [pause] Det är inte lekplatserna. Lekplatser är bra, men barn kan leka var som helst — det är det som är själva definitionen av barn. [pointed] Det som gör en ort barnvänlig är att de vuxna har bestämt sig för att barnen hör till.
+
+[engaged] När kommunen tog fram sin vision — den som pekade mot just det här året — stod det att Stenungsund skulle vara en barnvänlig kommun där barns rättigheter tas på allvar och alla barn får en god uppväxtmiljö. [pause] Jag minns att jag läste det och tänkte: det där skriver väl alla kommuner. [warmly] Men sedan såg jag det hända, år för år, här i Ödsmål. Förskolan byggdes ut när barnfamiljerna kom, inte fem år efteråt. Skolvägen fick belysning och säker cykelbana innan någon förälder hann skriva en arg insändare. När idrottsföreningen behövde en ny gräsplan satt kommunens folk redan i klubbstugan och frågade vad mer som behövdes. [pause] Insyn, delaktighet, öppenhet. Det var inte bara ord på en affisch. Det var hur det gick till.
+
+[tender] På min förskola har vi fjorden som ett extra rum. Vi går ner med barnen och håvar krabbor, vi lär femåringar skillnaden på blåstång och sågtång, vi eldar i vindskyddet uppe i skogen när det är för kallt för stranden. [pause] Det finns forskning på vad natur gör med barns nervsystem, men man behöver ingen forskning. Man behöver bara se ett stressat barn sitta en stund med en krabba i en hink.
+
+[reflective] Och tryggheten — den kom inte av staket. Den kom av att orten lever. Affären finns kvar, busslinjen går hela dagen, det bor unga och gamla och nyinflyttade och bönder om vartannat. [pause] När många sorters människor delar en plats, då finns det alltid någon som ser. Ture cyklar själv till träningen nu. Jag står inte i fönstret och oroar mig. [soft] Jag står i fönstret och vinkar.
+
+==== MUSIK 2 — "Barfotabarn" ====
+
+DEL 3
+
+[calm] Folk frågar ibland om det inte är långt. Långt till stan, långt till allting. [amused] Jag brukar svara: långt till vad då? Havet är en kvart bort. Vandringslederna börjar bakom huset — vi kan gå en hel söndag i skogarna häromkring utan att gå samma stig två gånger. På vintern åker vi skridskor på tjärnen när det bär, och på sommaren lever vi i princip på badklippan. [pause] Och när jag faktiskt vill till stan går bussen ner till Stenungsund där tågen numera går varje halvtimme. Det räcker långt, kan jag lova.
+
+[warmly] Det jag önskar att fler visste är att det aldrig var en uppoffring att flytta hit. Det var en uppgradering. [pause] Mina barn kommer att växa upp och kanske flytta härifrån, till studier och städer och allt det där som hör livet till. Men de kommer att bära med sig en barndom med saltvatten på knäna och granskog i näsan, och en alldeles grundmurad känsla av att vuxenvärlden faktiskt tänkte på dem. [pause] Det är det finaste en ort kan ge bort.
+
+[gently] Ikväll ska vi gå ner till fjorden igen, hela familjen. Ture ska visa ett nytt ställe där det finns strandkrabbor stora som handflator, säger han. Det ska bli fantastiskt att se om det stämmer. [soft laugh] Det stämmer aldrig. Det är alltid små krabbor. Men det är inte det som är poängen med att gå ner till vattnet.
+
+[warmly] Tack för att ni lyssnade. Jag heter Hanna Lind — och om ni ser tre små figurer på grusvägen ner mot fjorden ikväll, en med cykel och en med fickorna fulla av pinnar, så är det vi. [soft] Vinka gärna.
+
+=====================================================
+SLUT — generatorinstruktion: taggar i hakparentes är ElevenLabs v3 audio tags och ska inte läsas upp.

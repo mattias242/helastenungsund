@@ -1,0 +1,38 @@
+STENUNGSUND 2035 — FREDRIK ALMS (Avsnitt 6 av 7: Stora Höga)
+Egenföretagare och pendlare, 45 år. Perspektiv: dubbelspåret, hållbara transporter, företagsklimat, vardagspusslet.
+Talmanus med ElevenLabs v3 audio tags. Musikbryt markerade ==== MUSIK X ==== — tas bort före generering.
+
+=====================================================
+
+DEL 1
+
+[brisk, friendly] Tåget mot Göteborg går sju och fjorton från Stora Höga, och jag ska säga er något om den avgången: den går sju och fjorton. [pause] Inte ungefär. Inte i mån av spår. [pleased] Sju och fjorton, varje morgon, och nästa går en halvtimme senare. Jag vet att det låter som en liten sak att inleda en hel berättelse med. Det är det inte. Det är den stora saken. Jag ska förklara varför.
+
+[warmly] Jag heter Fredrik Alms. Jag är fyrtiofem år, jag driver en energikonsultfirma med sex anställda, och jag bor med min fru och våra två tonåringar i Stora Höga — kustsamhället i södra delen av Stenungsunds kommun, där husen klättrar i sluttningen ovanför stationen och havet ligger ett stenkast bort. [pause] Vi flyttade hit för sjutton år sedan. Då var Stora Höga en pendlarort med växtvärk: tåget gick när det gick, enkelspåret gjorde varje försening till en kedjereaktion, och E-sexan stod stilla varje morgon som ett långt, argt smycke av bromsljus.
+
+[reflective] Jag satt själv i den kön. Åtta år av mitt liv, fyrtio minuter i taget, med ratten i händerna och pulsen någonstans uppe vid solskyddet. [dry] Man hinner tänka mycket i en bilkö. Mest tänker man: det måste finnas ett bättre sätt. [pause] Det fanns det. Det hette dubbelspår, och när utbyggnaden mot Göteborg blev klar hände det som transportforskare alltid sagt: när tåget blir pålitligt, byter folk. Inte av samvete. Av bekvämlighet. [amused] Samvetet kommer efteråt och tar åt sig äran.
+
+==== MUSIK 1 — "Sju och fjorton" ====
+
+DEL 2
+
+[engaged] Numera ser min arbetsdag ut så här. Tåg in till Göteborg två dagar i veckan för kundmöten — tjugofem minuter, jag hinner beta av halva inkorgen på vägen. Två dagar sitter jag i företagshubben vid stationen här hemma, tillsammans med ett trettiotal andra som också slutat pendla i onödan: arkitekter, redovisningskonsulter, en spelutvecklare, två som gör något med fartygslogistik som jag aldrig riktigt förstått. [amused] Bra fika har vi i alla fall. Fredagar jobbar jag hemifrån och hämtar tidigt. [pause] Bilen då? Den står mest. Vi har en, elbil förstås, mot två förr. Ungarna tar tåget till gymnasiet själva. Det är hela familjens logistik, löst av en tidtabell man kan lita på.
+
+[matter-of-fact] Sedan måste jag få säga något om att driva företag i den här kommunen, för jag har kollegor runt om i landet och jag hör skillnaden i deras röster. [pause] När jag startade firman ringde jag kommunen med tusen frågor. Jag fick en företagslots — en människa, med namn och nummer, som svarade i telefon och sa: vi löser det här tillsammans. [pleased] Bygglov för kontoret: tre veckor. Upphandlingarna är öppna och begripliga, även för ett litet bolag som mitt. Det där kallar kommunen för bästa möjliga möte, och jag trodde det var en floskel tills jag blev föremål för det. [dry] Numera är jag den tråkiga personen på branschträffar som säger: flytta till Stenungsund. Folk tror att jag får provision. Det får jag inte. Jag borde förhandla om saken.
+
+[building] Och jobben har följt efter. Kemiklustrets omställning drog hit ingenjörer, IT-klustret drog utvecklare, science parken kopplade ihop dem med studenterna — och alla dessa människor behöver revisorer och arkitekter och energikonsulter. [pause] Hållbar tillväxt låter som något ur en broschyr. På marken ser det ut så här: min orderbok är full, mina anställda bor i fyra olika kommundelar, och ingen av oss sitter i bilkö. [with weight] Tillväxt utan trängsel. Det var det enkelspåret aldrig kunde ge oss.
+
+==== MUSIK 2 — "Hemma före fem" ====
+
+DEL 3
+
+[calm] Klockan kvart över fyra en vanlig torsdag står jag på perrongen i Göteborg, och tjugofem minuter senare går jag nerför rampen i Stora Höga med havsluften i ansiktet. [pause] Hemma före fem. Hinner med Alvas bortamatch klockan sex — hon spelar handboll numera, fråga inte vad som hände med fotbollen, det är känsligt — och en löprunda längs kustvägen innan middagen, när solen lägger sig över Hakefjorden och hela vattnet ser ut att stå i lågor på det där stillsamma västkustviset. [soft] De kvällarna fattar man varför man bor här.
+
+[reflective] Jag brukar tänka på killen i bilkön ibland. Fyrtio minuter enkel väg, fem dagar i veckan. Det blir över trehundra timmar om året — nio hela arbetsveckor — som han satt still och väntade på sitt eget liv. [pause] De timmarna fick jag tillbaka. Jag växlade in dem i bortamatcher och löprundor och middagar där jag faktiskt är närvarande och inte bara närvarande-ish. [with weight] När folk frågar vad hållbara transporter betyder svarar jag inte med utsläppssiffror, fast de också pekar åt rätt håll. Jag svarar: det betyder att komma hem. I tid, med energi kvar, år efter år.
+
+[warmly] I helgen ska vi ta tåget hela vägen upp till Strömstad, förresten — Alva har turnering. Morfar i Ljungskile har lovat stå på perrongen och vinka när vi susar förbi. Vi har lovat skicka vykort. [soft laugh] Från tåget.
+
+[gently] Tack för att ni lyssnade. Jag heter Fredrik Alms — och nu hör jag faktiskt tåget komma. [amused] Kvart-över-fyra-avgången, punktlig som alltid. [warm] Dags att åka hem.
+
+=====================================================
+SLUT — generatorinstruktion: taggar i hakparentes är ElevenLabs v3 audio tags och ska inte läsas upp.

@@ -25,3 +25,6 @@ pnpm-debug.log*
 
 # generated images
 generated_imgs/
+
+# podd-audio (deployas via rsync, för stort för git)
+public/podd/audio/

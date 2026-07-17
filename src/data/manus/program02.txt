@@ -1,0 +1,42 @@
+STENUNGSUND 2035 — GUNNAR HÖGBERG (Avsnitt 2 av 7: Svenshögen)
+Pensionerad lokförare, 74 år. Perspektiv: att åldras med livskvalitet, tåget, gemenskapen kring Hällungen.
+Talmanus med ElevenLabs v3 audio tags. Musikbryt markerade ==== MUSIK X ==== — tas bort före generering.
+
+=====================================================
+
+DEL 1
+
+[calm, unhurried] Varje morgon vid halv nio står jag på perrongen i Svenshögen med en kaffekopp i handen och ser tåget komma genom skogen. Jag ska ingenstans. [dry] Jag står där för att det är vackert, och för att gamla lokförare aldrig riktigt slutar titta på tåg.
+
+[warmly] Jag heter Gunnar Högberg. Jag är sjuttiofyra år, och jag har bott i Svenshögen i hela mitt liv — här mellan sjön Hällungen och bergen, i samhället som en gång byggdes kring järnvägen och sanatoriet. [pause] I fyrtio år körde jag tåg på Bohusbanan. Jag vet precis hur det låter när rälsen är dålig och hur det låter när den är bra. [pleased] Numera låter den bra.
+
+[reflective] Jag ska vara ärlig och säga att det fanns år då jag trodde att Svenshögen skulle tyna bort. På tjugohundratiotalet stod hus tomma, affären kämpade, och tåget — mitt eget tåg — gick så sällan att folk skaffade en andra bil istället. [pause] Ett samhälle dör inte med ett brak. Det dör med en tidtabell som glesnar.
+
+[brightening] Men så vände det. Och jag ska ägna det här programmet åt att berätta hur det gick till när en liten stationsort vid en sjö fick tillbaka framtiden — och vad det betyder att få bli gammal på en plats som lever, istället för i en väntsal. [pause] För det är det som är skillnaden, ska ni veta. Jag är inte gammal i Svenshögen. Jag är bara Gunnar här.
+
+==== MUSIK 1 — "Rälsen genom skogen" ====
+
+DEL 2
+
+[matter-of-fact] Det första som hände var tågen. När dubbelspåret byggdes ut på sträckorna söderut kunde de plötsligt köra tätt — mot Göteborg åt ena hållet, mot Uddevalla och vidare upp längs kusten åt det andra. [pause] Och när tåget går ofta händer något med en ort. Ungdomarna kan bo kvar och plugga i stan. Barnfamiljerna vågar flytta hit. Pendlaren säljer andrabilen. [dry] Och en pensionerad lokförare kan åka och se ett barnbarn spela innebandy en onsdagkväll utan att planera det som en fjällexpedition.
+
+[engaged] Det andra var att kommunen menade allvar med det där som stod i visionen — att man ska få åldras med livskvalitet. Jag satt själv med på mötena i bygdegården när de kom hit och frågade oss vad vi behövde. Inte informerade oss. Frågade oss. [pause] Det blev en servicepunkt i affären, där jag kan hämta paket och mediciner. Det blev en vårdcentralsfilial två dagar i veckan och digital doktor de andra fem — och jag som var skeptisk till att prata med en läkare genom en skärm får erkänna att det är bättre än att sitta i en korridor i fyrtio minuter med värk i höften. [soft laugh] Hemtjänsten har tid nuförtiden. De hinner dricka en kopp. Det låter litet. Det är inte litet.
+
+[tender] Och det tredje — det viktigaste — var det vi gjorde själva. Gamla sanatorieparken, där det förr bara stod tomma byggnader och sus i tallarna, är numera vårt gemensamma vardagsrum. Föreningen driver kafé där på helgerna. Det är snickarkurs för ungar, vävstuga, schack på tisdagar — jag förlorar varje gång mot en elvaåring som heter Sigrid och som inte visar någon nåd. [amused] Ingen nåd alls.
+
+[quiet] Min fru Berit gick bort för fem år sedan. Det är den sortens händelse som avgör vad en ort går för. [pause] Jag kan berätta att det aldrig gick mer än två dagar utan att någon knackade på. Grannen med soppa. Sigrids pappa med ved. [with weight] Ensamhet är den farligaste folksjukdomen bland oss gamla, det vet vartenda vårdbiträde. Här fick den aldrig fäste. Det är också infrastruktur, om ni frågar mig. Den syns bara inte i någon budget.
+
+==== MUSIK 2 — "Hällungen blänker" ====
+
+DEL 3
+
+[calm] Nu om somrarna badar jag i Hällungen varje morgon, från bryggan nedanför badplatsen. Vattnet är klart som glas — sjön mår bättre än på länge, säger de som mäter sådant, och jag tror dem, för fisken har kommit tillbaka och hägern står där som en gammal stins och inspekterar alltihop. [pause] Sedan går jag upp till kaféet i parken och löser korsord och hör vad som händer i byn. Det händer förvånansvärt mycket i en by som lever.
+
+[reflective] Jag har tänkt på en sak som lokförare tänker på. [pause] Ett tåg är aldrig en enskild vagn. Det är kopplen som gör tåget. [with weight] Så är det med ett samhälle också. Unga och gamla, nyinflyttade och urinvånare, kommunen och föreningen och affären — det är kopplen emellan oss som avgör om vi rullar eller blir stående. [pause] I Svenshögen valde vi att koppla ihop oss. Och se: vi rullar.
+
+[warmly] I helgen kommer min dotter med barnen på tåget från Göteborg. Fyrtio minuter, sedan står de på perrongen. Vi ska fiska abborre, Sigrid ska förmodligen förödmjuka mig i schack igen, och på söndag ska vi grilla i parken med halva byn. [soft] Det är ett bra liv, det här. Det blev ett väldigt bra liv, på det stillsamma viset.
+
+[gently] Tack för att ni lyssnade. Jag heter Gunnar Högberg. I morgon bitti klockan halv nio står jag på perrongen igen, med kaffekoppen. [dry] Jag ska fortfarande ingenstans. [soft] Det är det som är lyxen.
+
+=====================================================
+SLUT — generatorinstruktion: taggar i hakparentes är ElevenLabs v3 audio tags och ska inte läsas upp.

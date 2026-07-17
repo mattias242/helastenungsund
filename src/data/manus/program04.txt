@@ -1,0 +1,38 @@
+STENUNGSUND 2035 — ELIAS VENDEL (Avsnitt 4 av 7: Spekeröd)
+Gymnasieelev, 17 år. Perspektiv: utbildning, science park, nya bostadsområden, att vara ung i en kommun som satsar.
+Talmanus med ElevenLabs v3 audio tags. Musikbryt markerade ==== MUSIK X ==== — tas bort före generering.
+
+=====================================================
+
+DEL 1
+
+[casual, energetic] Okej, så här börjar min dag: jag vaknar i Spekeröd, käkar frukost medan morsan tjatar om att jag ska ta regnjacka — vilket, respekt, hon har typ alltid rätt om det — och sen tar jag elbussen från nya torget. Den går var kvart. [pause] Tjugo minuter senare kliver jag av vid gymnasiet i Stenungsund, och två dagar i veckan går jag inte till skolan alls, utan till science parken. [pleased] Och det är typ det coolaste stället i hela kommunen, men jag ska ta det från början.
+
+[warmer] Jag heter Elias Vendel, jag är sjutton år, och jag har bott i Spekeröd hela mitt liv. Om ni inte vet var det är: det är i södra delen av Stenungsunds kommun, precis där motorvägen svänger av, med kyrkan på kullen som är typ niohundra år gammal. [amused] Niohundra! Min mormor säger att när hon var ung var Spekeröd mest en avfart och några gårdar. [pause] Det är det verkligen inte längre.
+
+[reflective] Under hela min uppväxt har det byggts här. Inte sådär kaosbyggt, utan... genomtänkt? Det kom radhus och lägenheter och villor om vartannat, en ny skola, torget med kaféet och padelhallen och biblioteksfilialen. Mina kompisars familjer kommer från typ hela världen och halva Göteborg. [pause] Och det sjuka är att jag hörde en politiker säga att det var planen redan innan jag föddes — att Stenungsund skulle växa till trettiofem tusen invånare, men växa klokt. Bostäder för alla behov, hette det. [casual] Jag var väl typ fem då, så jag hade ingen åsikt. Men jag bor i den planen nu. Och den funkar.
+
+==== MUSIK 1 — "Motorvägens barn" ====
+
+DEL 2
+
+[engaged] Okej, science parken. Så på gymnasiet har vi något som kallas klusterspåret — man läser natur eller teknik, men två dagar i veckan är man ute i verkligheten. För mig betyder det science parken nere vid industriområdet, där kemiföretagen och IT-bolagen och universitetsfolket sitter i samma byggnad och löser saker ihop. [impressed] Alltså på riktigt löser saker. Min handledare Priya jobbar med att göra plast av koldioxid — hon säger att det som var avgas för tjugo år sedan är råvara nu. Det kallas cirkulärt. Jag hjälper till att köra tester och grafa datan.
+
+[building] Och kemiklustret, alltså industrin — den som morfar jobbade i hela livet — den släpper i princip inte ut någon koldioxid längre. Elektrifierade krackrar, vätgas, återvunnen råvara, hela paketet. Världsledande, säger de själva. [amused] Fast typ alla säger ju det om sig själva. Men folk kommer faktiskt hit från andra länder för att kolla hur vi gjort, så det kanske stämmer. [pause] Morfar var med på den tiden det luktade i hela stan ibland. Han säger: Elias, vi trodde man var tvungen att välja mellan jobben och luften. [with weight] Man var inte det. Det är väl det som är grejen med hela den här kommunen: de vägrade välja.
+
+[matter-of-fact] Skolan då. Det står i kommunens vision att de utbildar världsmedborgare, vilket låter som en sån där grej man skrattar åt på lektionen. [pause] Men kolla: i min klass går alla vidare från grundskolan till gymnasiet — alla, det är liksom inte ens en fråga längre — och de flesta pluggar vidare sen. Vi kör projekt med en skola i Kenya och en i Vietnam om vattenrening. Mitt UF-företag gör en app som hjälper småbåtsägare att samåka... fast med båtar. [self-aware laugh] Båtpool. Det låter dummare än det är. Vi har fyrtio användare i Stenungsunds hamn redan, och kommunens företagslots hjälpte oss fixa allt det tråkiga med typ blanketter.
+
+[genuine] Grejen är: jag har aldrig känt att vuxna ser oss som ett problem som ska förvaras tills vi blir klara. Det känns som att de faktiskt räknar med oss. [pause] Det gör något med en, tror jag. Man börjar räkna med sig själv.
+
+==== MUSIK 2 — "Världsmedborgare" ====
+
+DEL 3
+
+[calm, more thoughtful] Ibland cyklar jag upp till kyrkan på kullen på kvällen. Den har alltså stått där i niohundra år. Folk har döpt sina barn där genom pest och krig och missväxt och... internet. [soft laugh] Och därifrån ser man både det gamla Spekeröd med gårdarna och det nya med torget och solcellstaken, och motorvägen som bara... susar förbi där nere, med folk på väg någon annanstans.
+
+[reflective] Jag ska också iväg snart. Plugga — kanske kemiteknik, kanske i Göteborg, kanske utomlands. Priya säger att jag ska söka brett och våga. Morsan säger att jag ska ta regnjacka. [amused] Båda har rätt, antagligen. [pause] Men jag ska säga en sak som typ ingen sjuttonåring i historien har sagt om sin hemort: jag kommer nog tillbaka. [genuine] Inte för att jag måste. För att det händer saker här. För att man kan jobba med världens svåraste problem och ändå bada efter jobbet. För att det här stället satsade på mig innan jag ens fattade att det var en satsning.
+
+[warmly] Så, ja. Det är Spekeröd. Niohundra år gammal kyrka, tio minuter till framtiden med elbuss. [pause] Tack för att ni lyssnade. Jag heter Elias Vendel — och nu ska jag plugga. [amused] Eller, typ strax. Först ska jag cykla upp till kyrkbacken och kolla solnedgången. [genuine] Den är faktiskt bäst härifrån.
+
+=====================================================
+SLUT — generatorinstruktion: taggar i hakparentes är ElevenLabs v3 audio tags och ska inte läsas upp.

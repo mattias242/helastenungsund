@@ -1,0 +1,121 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { poddAvsnitt, serieTitel, aiNotis } from '../../data/podd';
+import { hamtaManus } from '../../data/manus';
+
+export function getStaticPaths() {
+  return poddAvsnitt.map((a) => ({
+    params: { slug: a.slug },
+    props: { avsnitt: a },
+  }));
+}
+
+const { avsnitt } = Astro.props;
+const manus = hamtaManus(avsnitt.nr);
+const prev = poddAvsnitt.find((a) => a.nr === avsnitt.nr - 1);
+const next = poddAvsnitt.find((a) => a.nr === avsnitt.nr + 1);
+---
+
+<BaseLayout
+  title={`${avsnitt.titel} – ${serieTitel} | Hela Stenungsund`}
+  description={avsnitt.beskrivning}
+  ogImage={avsnitt.bild}
+>
+  <!-- Header -->
+  <section class="bg-gradient-to-b from-ocean to-ocean/90 text-white">
+    <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 py-12 md:py-16">
+      <a
+        href="/podd"
+        class="inline-flex items-center text-white/70 hover:text-white transition-colors text-sm font-medium mb-8"
+      >
+        &larr; Alla avsnitt
+      </a>
+      <div class="flex flex-col sm:flex-row gap-8 items-start">
+        <img
+          src={avsnitt.bild}
+          alt={`Porträtt av ${avsnitt.person}`}
+          class="w-40 h-40 md:w-52 md:h-52 rounded-xl object-cover shadow-lg shrink-0"
+        />
+        <div>
+          <p class="text-sm font-semibold text-white/60 uppercase tracking-wider mb-2">
+            {serieTitel} · Avsnitt {avsnitt.nr} av {poddAvsnitt.length}
+          </p>
+          <h1 class="font-heading text-3xl md:text-4xl lg:text-5xl mb-3">{avsnitt.titel}</h1>
+          <p class="text-lg text-white/90 mb-1">{avsnitt.person} — {avsnitt.roll}</p>
+          <p class="text-sm text-white/70">{avsnitt.ort} · {avsnitt.langdMin} min</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Spelare + beskrivning -->
+  <section class="bg-white border-b border-border">
+    <div class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+      <audio controls preload="metadata" class="w-full mb-8" src={avsnitt.audio}>
+        Din webbläsare stödjer inte ljuduppspelning.
+        <a href={avsnitt.audio}>Ladda ner avsnittet</a> istället.
+      </audio>
+      <p class="text-base md:text-lg text-charcoal/80 leading-relaxed">
+        {avsnitt.beskrivning}
+      </p>
+    </div>
+  </section>
+
+  <!-- Manus -->
+  <section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
+    <details class="group">
+      <summary
+        class="inline-flex items-center gap-2 cursor-pointer list-none select-none bg-ocean text-white hover:bg-ocean/90 transition-colors rounded-lg px-5 py-3 text-sm font-medium [&::-webkit-details-marker]:hidden"
+      >
+        <span class="group-open:hidden">Fäll ut manuset</span>
+        <span class="hidden group-open:inline">Fäll ihop manuset</span>
+        <svg
+          class="w-4 h-4 group-open:rotate-180 transition-transform"
+          fill="none"
+          stroke="currentColor"
+          viewBox="0 0 24 24"
+        >
+          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7" />
+        </svg>
+      </summary>
+
+      <div class="mt-8 bg-white rounded-xl border border-border p-6 md:p-10">
+        {manus.map((block) =>
+          block.typ === 'del' ? (
+            <p class="text-xs font-semibold text-muted uppercase tracking-wider mt-8 first:mt-0 mb-4">
+              Del {block.nr}
+            </p>
+          ) : block.typ === 'musik' ? (
+            <p class="my-8 py-4 border-y border-border text-center text-ocean font-medium italic">
+              ♪ {block.titel}
+            </p>
+          ) : (
+            <p class="text-base text-charcoal/80 leading-relaxed mb-4">{block.text}</p>
+          )
+        )}
+      </div>
+    </details>
+
+    <p class="mt-8 text-xs text-muted">{aiNotis}</p>
+  </section>
+
+  <!-- Föregående / nästa -->
+  <section class="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8 pb-14">
+    <div class="flex justify-between gap-4 border-t border-border pt-6">
+      {prev ? (
+        <a href={`/podd/${prev.slug}`} class="text-sm text-ocean hover:underline">
+          &larr; Avsnitt {prev.nr}: {prev.titel}
+        </a>
+      ) : (
+        <span />
+      )}
+      {next ? (
+        <a href={`/podd/${next.slug}`} class="text-sm text-ocean hover:underline text-right">
+          Avsnitt {next.nr}: {next.titel} &rarr;
+        </a>
+      ) : (
+        <span />
+      )}
+    </div>
+  </section>
+</BaseLayout>
