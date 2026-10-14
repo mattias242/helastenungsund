@@ -1,8 +1,9 @@
 // Länkar till delsajten Stenungsund 2126.
 //
-// Delsajten ligger i mappen /2136/ på samma webbserver. Den är en egen app
-// och ingen Astro-sida, så den finns inte i dist/. Mappen heter 2136 men
-// verktyget heter 2126: synlig text säger alltid 2126, bara href säger 2136.
+// Delsajten ligger i mappen /2126/ på samma webbserver. Den är en egen app
+// och ingen Astro-sida, så den finns inte i dist/. Först låg den under /2136/;
+// den gamla adressen skickas vidare till /2126/ av webbservern (Caddy), så
+// ingen länk här ska peka dit, och "2136" ska inte stå någonstans.
 //
 // Testerna läser den byggda sajten i dist/. Bygg först:
 //   npm run build && npm test
@@ -16,7 +17,7 @@ import fs from 'node:fs';
 const DIST = new URL('../dist/', import.meta.url);
 
 const SITE_NAME = 'Hela Stenungsund';
-const SUBSITE_HREF = '/2136/';
+const SUBSITE_HREF = '/2126/';
 const MENU_TEXT = 'Stenungsund 2126';
 const SECTION_HEADING = 'Hur kan Stenungsund se ut om hundra år?';
 const BUTTON_TEXT = 'Öppna Stenungsund 2126';
@@ -200,7 +201,8 @@ function subsiteSection() {
   return section;
 }
 
-const pointsToSubsite = (a) => /2136/.test(a.href ?? '') || a.text.includes(MENU_TEXT);
+// En länk till den gamla adressen /2136/ räknas också, så att S4 hittar den.
+const pointsToSubsite = (a) => /21[23]6/.test(a.href ?? '') || a.text.includes(MENU_TEXT);
 
 const pairs = (menu) => menu.map((a) => [a.text, a.href]);
 
@@ -216,7 +218,7 @@ function assertNoProblems(problems) {
 // Scenarier
 // ---------------------------------------------------------------------------
 
-test('S1 Startsidan: sektionen om hundra år har exakt en länk "Öppna Stenungsund 2126" till /2136/', () => {
+test('S1 Startsidan: sektionen om hundra år har exakt en länk "Öppna Stenungsund 2126" till /2126/', () => {
   const section = subsiteSection();
   const toSubsite = links(section.inner).filter(pointsToSubsite);
 
@@ -246,7 +248,7 @@ test('S3 Alla sidor: "Stenungsund 2126" finns en gång i varje meny, mellan "År
   assertNoProblems(problems);
 });
 
-test('S4 Länkarna: varje länk till delsajten har exakt href="/2136/" och inget target', () => {
+test('S4 Länkarna: varje länk till delsajten har exakt href="/2126/" och inget target', () => {
   const problems = [];
   for (const page of builtPages()) {
     const toSubsite = page.links.filter(pointsToSubsite);
@@ -267,7 +269,7 @@ test('S4 Länkarna: varje länk till delsajten har exakt href="/2136/" och inget
   assertNoProblems(problems);
 });
 
-test('S5 Texten: sektionen säger "inte en prognos" och "2136" syns aldrig i text', () => {
+test('S5 Texten: sektionen säger "inte en prognos" och den gamla adressen "2136" syns aldrig i text', () => {
   const sectionText = text(subsiteSection().inner);
   assert.ok(
     sectionText.includes('inte en prognos'),
